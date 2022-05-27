@@ -1,6 +1,6 @@
 module FinTools
 
-function split_adjust(df)
+function split_adjust(df::AbstractArray)
     close = df.close
     shifted = circshift(close, 1)
     cumratio = cumprod(div.(shifted, close, RoundNearest))
@@ -13,5 +13,5 @@ function split_adjust(df)
 
     return df
 end
-
+export split_adjust
 end # module
