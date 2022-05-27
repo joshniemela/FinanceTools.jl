@@ -1,0 +1,5 @@
+name = "FinTools"
+uuid = "85f8265a-5895-49c6-b0a4-da58897771f6"
+license = "MIT"
+authors = ["Joshua Victor Niemelä <josh@jniemela.dk>"]
+version = "0.1.0"
