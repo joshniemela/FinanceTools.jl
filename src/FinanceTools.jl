@@ -1,9 +1,9 @@
 module FinanceTools
-
-function split_adjust(df::AbstractArray)
-    close = df.close
+import DataFrames: DataFrame
+function split_adjust(df::DataFrame)
+    close = copy(df.close)
     shifted = circshift(close, 1)
-    cumratio = cumprod(div.(shifted, close, RoundNearest))
+    cumratio = cumprod(div.(shifted, close, RoundNearest)) # checks if the stock has changed more than 50% in 1 minute.
 
     df.close = df.close .* cumratio
     df.high = df.high .* cumratio

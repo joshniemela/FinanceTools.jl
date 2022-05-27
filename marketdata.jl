@@ -17,7 +17,7 @@ function fracdiff(x)
     return real(getindex(dx, 1:T))
 end
 
-file = "/home/josh/infodrivenbars/MSFT.parquet"
+file = "/home/josh/FinanceTools/MSFT.parquet"
 df = DataFrame(read_parquet(file))
 dropmissing!(df)
 mapcols!(fracdiff, df)
