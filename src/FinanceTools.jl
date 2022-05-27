@@ -1,4 +1,4 @@
-module FinTools
+module FinanceTools
 
 function split_adjust(df::AbstractArray)
     close = df.close

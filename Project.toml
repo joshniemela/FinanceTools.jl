@@ -2,7 +2,7 @@ name = "FinanceTools"
 uuid = "85f8265a-5895-49c6-b0a4-da58897771f6"
 license = "MIT"
 authors = ["Joshua Victor Niemelä <josh@jniemela.dk>"]
-version = "0.1.0"
+version = "0.1.1"
 
 [deps]
 DataFrames = "a93c6f00-e57d-5684-b7b6-d8193f3e46c0"
