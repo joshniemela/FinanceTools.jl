@@ -1,6 +1,5 @@
 module FinanceTools
 import DataFrames: DataFrame
-import FFTW: fft, ifft
 
 include("fracdiff.jl")
 export fracdiff, fracdiff!
