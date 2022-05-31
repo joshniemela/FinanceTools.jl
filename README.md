@@ -84,24 +84,6 @@ In-place version of the "fracdiff" function.
 
 The source code for this function is in [fracdiff.jl](/src/fracdiff.jl#L16-L18).
 
-#### Arguments
-
-1. <code><a href="https://docs.julialang.org/en/v1/base/arrays/#Core.AbstractArray">Core.AbstractArray</a> data</code> *To be filled out.*
-2. <code><a href="https://docs.julialang.org/en/v1/base/numbers/#Core.Number">Core.Number</a> d</code> *To be filled out.*
-3. <code><a href="https://docs.julialang.org/en/v1/base/numbers/#Core.Number">Core.Number</a> cutoff</code> *To be filled out.* Defaults to `1e-3`
-
-#### Returns
-
-This function does not return a value.
-
-#### Example
-
-```julia
-julia> fracdiff!()
-
-# This results in...
-```
-
 ## License
 
 This project is licensed under the [MIT License](https://choosealicense.com/licenses/mit/), see [LICENSE](/LICENSE) for more information.
