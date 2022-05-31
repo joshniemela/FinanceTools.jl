@@ -52,7 +52,7 @@ The source code for this function is in [fracdiff.jl](/src/fracdiff.jl#L16-L18).
 
 #### Returns
 
-This function returns a vector with the same shape as input, efter being differenced.
+This function returns a vector with the same shape as input, after being differenced.
 
 #### Example
 
