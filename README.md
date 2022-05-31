@@ -8,6 +8,8 @@ View on [JuliaHub](https://juliahub.com/ui/Packages/FinanceTools/barsj), or [Jul
 
 This package exports three functions for developers to use, they are as follows.
 
+<hr>
+
 <pre><a href="https://dataframes.juliadata.org/stable/lib/types/#DataFrames.DataFrame">DataFrames.DataFrame</a> split_adjust( <a href="https://dataframes.juliadata.org/stable/lib/types/#DataFrames.DataFrame">DataFrames.DataFrame</a> df )</pre>
 
 #### Description
@@ -16,15 +18,15 @@ This package exports three functions for developers to use, they are as follows.
 
 The source code for this function is in [FinanceTools.jl](/src/FinanceTools.jl#L8-L20).
 
-### Arguments
+#### Arguments
 
 1. <code><a href="https://dataframes.juliadata.org/stable/lib/types/#DataFrames.DataFrame">DataFrames.DataFrame</a> df</code> *To be filled out.*
 
-### Returns
+#### Returns
 
 1. <code><a href="https://dataframes.juliadata.org/stable/lib/types/#DataFrames.DataFrame">DataFrames.DataFrame</a> df</code> *To be filled out.*
 
-### Example
+#### Example
 
 ```julia
 julia> split_adjust()
@@ -32,7 +34,7 @@ julia> split_adjust()
 # This results in...
 ```
 
-<br>
+<hr>
 
 <pre>fracdiff( <a href="https://docs.julialang.org/en/v1/base/arrays/#Core.AbstractArray">Core.AbstractArray</a> data, <a href="https://docs.julialang.org/en/v1/base/numbers/#Core.Number">Core.Number</a> d, <a href="https://docs.julialang.org/en/v1/base/numbers/#Core.Number">Core.Number</a> cutoff = 1e-3 )</pre>
 
@@ -42,17 +44,17 @@ julia> split_adjust()
 
 The source code for this function is in [fracdiff.jl](/src/fracdiff.jl#L16-L18).
 
-### Arguments
+#### Arguments
 
 1. <code><a href="https://docs.julialang.org/en/v1/base/arrays/#Core.AbstractArray">Core.AbstractArray</a> data</code> *To be filled out.*
 2. <code><a href="https://docs.julialang.org/en/v1/base/numbers/#Core.Number">Core.Number</a> d</code> *To be filled out.*
 3. <code><a href="https://docs.julialang.org/en/v1/base/numbers/#Core.Number">Core.Number</a> cutoff</code> *To be filled out.* Defaults to `1e-3`?
 
-### Returns
+#### Returns
 
 This function does not return a value.
 
-### Example
+#### Example
 
 ```julia
 julia> fracdiff()
@@ -60,7 +62,7 @@ julia> fracdiff()
 # This results in...
 ```
 
-<br>
+<hr>
 
 <pre>fracdiff!( <a href="https://docs.julialang.org/en/v1/base/arrays/#Core.AbstractArray">Core.AbstractArray</a> data, <a href="https://docs.julialang.org/en/v1/base/numbers/#Core.Number">Core.Number</a> d, <a href="https://docs.julialang.org/en/v1/base/numbers/#Core.Number">Core.Number</a> cutoff = 1e-3 )</pre>
 
@@ -70,17 +72,17 @@ julia> fracdiff()
 
 The source code for this function is in [fracdiff.jl](/src/fracdiff.jl#L16-L18).
 
-### Arguments
+#### Arguments
 
 1. <code><a href="https://docs.julialang.org/en/v1/base/arrays/#Core.AbstractArray">Core.AbstractArray</a> data</code> *To be filled out.*
 2. <code><a href="https://docs.julialang.org/en/v1/base/numbers/#Core.Number">Core.Number</a> d</code> *To be filled out.*
 3. <code><a href="https://docs.julialang.org/en/v1/base/numbers/#Core.Number">Core.Number</a> cutoff</code> *To be filled out.* Defaults to `1e-3`?
 
-### Returns
+#### Returns
 
 This function does not return a value.
 
-### Example
+#### Example
 
 ```julia
 julia> fracdiff!()
