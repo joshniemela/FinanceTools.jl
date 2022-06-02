@@ -29,5 +29,6 @@ function trendlabel(x::AbstractArray, ω::Real)
             break
         end
     end
+    return y
 end
 export trendlabel
