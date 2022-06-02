@@ -4,7 +4,7 @@ import DataFrames: DataFrame
 include("fracdiff.jl")
 export fracdiff, fracdiff!
 
-include("labelling.jl")
+include("labeling.jl")
 export trendlabel
 
 function split_adjust(df::DataFrame)
