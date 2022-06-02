@@ -20,3 +20,4 @@ end
 function fracdiff!(data::AbstractArray, d::Number, cutoff::Number=1e-3)
     data .= conv(data, weights(d, cutoff))[1:length(data)]
 end
+ 
