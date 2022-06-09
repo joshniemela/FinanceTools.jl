@@ -7,7 +7,8 @@ export fracdiff, fracdiff!
 include("labeling.jl")
 export trendlabel
 
-include("infodriven.jl")
+include("bars.jl")
+export volumebars, dollarbars
 
 
 function split_adjust(df::DataFrame)
