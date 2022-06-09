@@ -2,8 +2,6 @@ export volumebars
 export dollarbars
 
 using DataFrames
-using CSV
-using Dates
 using RollingFunctions
 
 """
