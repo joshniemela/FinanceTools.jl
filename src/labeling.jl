@@ -4,9 +4,8 @@ Prediction Based on Trends"
 by Dingming Wu, Xiaolong Wang *, Jingyong Su, Buzhou Tang and Shaocong Wu"
 link : https://pdfs.semanticscholar.org/9ab2/13b22d49099256b1c98e476be2022922e8f6.pdf
 
-Code will be optimised later on
+Function returns buy(1)/sell(-1) signals from a series of prices.
 """
-
 function trendlabel(x::AbstractArray, ω::Real)
     N = length(x) # paper uses N as length of vector
     t = collect(1:N) # paper uses this thing for some reason

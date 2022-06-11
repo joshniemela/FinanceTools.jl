@@ -1,4 +1,8 @@
 # Inside make.jl
 using Documenter, FinanceTools
 
-makedocs(sitename="Documentation")
+makedocs(
+    modules = [FinanceTools],
+    doctest = true,
+    sitename = "FinanceTools.jl",
+    )
