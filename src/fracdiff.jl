@@ -23,7 +23,7 @@ Calculates the fractional difference of a vector of numbers.
 ```julia
 julia> fracdiff([0.:10.;], 0.5)
 
-# This results in...
+# This results in:
 11-element Vector{Float64}:
  -4.1236855200362954e-16
   1.0000000000000002
